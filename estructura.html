@@ -2,17 +2,14 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi sitio web personal - Steven</title>
-  <!-- Asegurate que la ruta coincide con la carpeta donde guardaste estilos.css -->
-  <link rel="stylesheet" href="css/estilos.css">
+  <title>Estructura web - Steven</title>
 </head>
 <body>
   <header>
     <h1>Mi sitio web personal</h1>
     <nav>
-      <a href="index.html">Inicio</a> |
-      <a href="sobre_mi.html">Sobre mí</a> |
-      <a href="#proyectos">Proyectos</a> |
+      <a href="#inicio">Inicio</a> |
+      <a href="#sobre">Sobre mí</a> |
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
@@ -20,15 +17,16 @@
   <main id="inicio">
     <section id="sobre">
       <h2>Sobre mí</h2>
+      <img src="img/perfil.jpg" alt="Foto de perfil de Steven" width="150">
       <p>Soy <strong>Steven García</strong>, estudiante de desarrollo web y programación.</p>
-      <!-- imagen local (usa la ruta relativa a tu proyecto) -->
-      <img src="img/perfil.jpg" alt="Logo" width="100">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML5" width="100">
       <p><a href="#inicio">⬆️ Volver al inicio</a></p>
     </section>
 
-    <section id="proyectos">
+        <section id="proyectos">
       <h2>Mis proyectos favoritos</h2>
       <p>Estos son algunos de los proyectos en los que he trabajado o estoy aprendiendo:</p>
+      
       <ul>
         <li>Diseño de una página web para mi portafolio</li>
         <li>Mini sistema en <strong>Python</strong> con menú interactivo</li>
@@ -42,16 +40,41 @@
         <li>CSS 🎨</li>
         <li>JavaScript ⚡</li>
       </ol>
+      <h3>Progreso de aprendizaje</h3>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Tema</th>
+    <th>Estado</th>
+    <th>Horas de práctica</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>✅ Completado</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>🚧 En progreso</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Git y GitHub</td>
+    <td>📘 Aprendiendo</td>
+    <td>5</td>
+  </tr>
+</table>
+
 
       <p>Puedes visitar mi <a href="https://github.com/stevenga26" target="_blank">perfil de GitHub</a> para ver algunos ejemplos.</p>
       <p><a href="#inicio">⬆️ Volver al inicio</a></p>
     </section>
 
-    <section id="contacto">
+        <section id="contacto">
       <h2>Contacto</h2>
-      <p>Podés escribirme a <a href="mailto:stevenga26@icloud.com">stevenga26@icloud.com</a></p>
+      <p>Podés escribirme a <a href="mailto:steven@example.com">steven@example.com</a></p>
       <p><a href="#inicio">⬆️ Volver al inicio</a></p>
     </section>
+
   </main>
 
   <footer>
